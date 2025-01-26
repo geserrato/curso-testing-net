@@ -107,7 +107,7 @@ while (true)
             int quantity = int.Parse(Console.ReadLine());
 
             Console.WriteLine("");
-            Console.WriteLine(stringOperations.QuantintyInWords(word, quantity));
+            Console.WriteLine(stringOperations.QuantityInWords(word, quantity));
             break;
         case 10:
             Console.WriteLine("write a roman number");

@@ -20,4 +20,8 @@
         <Using Include="Xunit"/>
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\StringManipulationConsole\StringManipulationConsole.csproj" />
+    </ItemGroup>
+
 </Project>

@@ -41,7 +41,7 @@ public class StringOperations
     public string RemoveWhitespace(string input)
     {
         return new string(input.ToCharArray()
-            .Where(c => !Char.IsWhiteSpace(c))
+            .Where(c => !char.IsWhiteSpace(c))
             .ToArray());
     }
 
@@ -86,7 +86,7 @@ public class StringOperations
         return input.Pluralize();
     }
 
-    public string QuantintyInWords(string input, int quantity)
+    public string QuantityInWords(string input, int quantity)
     {
         return input.ToQuantity(quantity, ShowQuantityAs.Words);
     }
